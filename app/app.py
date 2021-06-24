@@ -1,4 +1,4 @@
-from pymongo import MongoClient #Module nécessaire pour intéragir avec la base de donnée MongoDB
+from pymongo import MongoClient #Module nécessaire pour interagir avec la base de donnée MongoDB
 
 #Etape 1: Connection au serveur MongoDB
 client = MongoClient('mongodb:27017')
